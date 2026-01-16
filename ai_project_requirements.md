@@ -22,6 +22,11 @@
 - [ ] clang-tidy warnings as errors
 - [ ] `.clang-tidy` config file present
 
+## Code Formatting
+
+- [ ] clang-format integrated into build
+- [ ] `.clang-format` config file present
+
 ## Dynamic Analysis
 
 - [ ] UBSan enabled in default/debug build
@@ -33,6 +38,7 @@
 - [ ] Tests run automatically with build or single command
 - [ ] Code coverage enabled (`--coverage`)
 - [ ] Single command to generate coverage report
+- [ ] Coverage threshold enforced (coverage must not decrease)
 
 ## Documentation
 
@@ -50,3 +56,13 @@
 - [ ] No commented-out code
 - [ ] No incomplete stub functions
 - [ ] No TODO comments for abandoned work
+
+## CI/CD
+
+- [ ] CI pipeline configured
+- [ ] Tests run on multiple compilers/platforms
+- [ ] All checks (build, test, analysis, formatting) run in CI
+
+## Advanced (Optional)
+
+- [ ] Mutation testing enabled
