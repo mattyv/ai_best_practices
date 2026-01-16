@@ -29,7 +29,7 @@
 
 ## Testing
 
-- [ ] Test framework set up
+- [ ] Test framework set up (Catch2 header-only recommended)
 - [ ] Tests run automatically with build or single command
 - [ ] Code coverage enabled (`--coverage`)
 - [ ] Single command to generate coverage report
